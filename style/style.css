@@ -5,13 +5,14 @@ p {
     color: rgb(13, 19, 33);
 }
 h2 {
-    font-size: 48px;
+    font-size: 38px;
     font-family: Azeret Mono;
     color: rgb(13, 19, 33);
 }
 h3 {
     font-family: Azeret Mono;
     color: rgb(13, 19, 33);
+    font-size: 22px;
 }
 /* * navbar */
 nav {
@@ -42,11 +43,11 @@ nav .sitename {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    width: 1440px;
     height: 652px;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 100px;
     
 }
 .hero-content {
@@ -71,3 +72,60 @@ nav .sitename {
     color: rgb(255, 255, 255);
 }
 /* hero end */
+
+/* why-web-devlopment */
+.why-web-devlopment {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 148px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+    padding: 80px 97px;
+
+}
+.web-devlopment-head {
+    text-align: center;
+    margin-bottom: 20PX;
+}
+.web-devlopment-btn {
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 20px 12px 20px;
+
+}
+.web-devlopment-body-img-1 {
+    padding: 10px;
+}
+.web-devlopment-body-1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 48px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    border-radius: 16px;
+}
+.web-devlopment-body-content-1 {
+    width: 80%;
+    padding-right: 30px;
+    justify-content: center;
+    align-items: center; 
+}
+.web-devlopment-body-2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 48px;
+    border-radius: 16px;
+    background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+.web-devlopment-body-content-2 {
+    width: 80%;
+    padding-right: 48px;
+    justify-content: center;
+    align-items: center; 
+}
