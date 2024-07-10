@@ -74,6 +74,7 @@ nav .sitename {
 .hero-btn:hover {
     color: rgb(31, 252, 2);
     background: rgb(173, 101, 6);
+    cursor: pointer;
 }
 /* hero end */
 
