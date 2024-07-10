@@ -241,6 +241,7 @@ nav .sitename {
     background: rgb(255, 255, 255);
     font-family: Azeret Mono;
     font-size: 12px;
+    font-weight: bold;
     padding: 7px 10px 7px 10px;
 
 }
